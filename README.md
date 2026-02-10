@@ -253,18 +253,7 @@ df.select("id", "title", "by", "time").show(10, truncate=False)
 
 \## 📌 Future Enhancements
 
-\- Add schema validation (Avro / Schema Registry)
-
-\- Implement Dead Letter Queue (DLQ)
-
-\- Convert to Delta Lake format
-
-\- Add monitoring with Prometheus/Grafana
-
-
-
----
-
+Adding schema validation (Avro / Schema Registry)
 
 
 \## 👤 Author
