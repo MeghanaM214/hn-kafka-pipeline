@@ -1,24 +1,9 @@
 \# Real-Time Hacker News Data Pipeline (Kafka → S3 → Spark)
+iIplemented an end-to-end real-time data ingestion pipeline that streams live data from the Hacker News API into Apache Kafka and persists raw events into Amazon S3. The stored data is then read and analyzed using Apache Spark / Databricks.
 
+This project follows modern data engineering best practices such as decoupled ingestion, raw/bronze data storage, and scalable analytics.
 
-
-\## 📌 Project Overview
-
-This project implements an end-to-end \*\*real-time data ingestion pipeline\*\* that streams live data from the Hacker News API into Apache Kafka and persists raw events into Amazon S3. The stored data is then read and analyzed using Apache Spark / Databricks.
-
-
-
-This project follows \*\*modern data engineering best practices\*\* such as decoupled ingestion, raw/bronze data storage, and scalable analytics.
-
-
-
----
-
-
-
-\## 🏗️ Architecture
-
-```
+Architecture:
 
 Hacker News API
 
